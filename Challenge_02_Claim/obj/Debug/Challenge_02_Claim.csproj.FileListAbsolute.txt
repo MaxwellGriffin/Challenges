@@ -1,0 +1,7 @@
+C:\DotNetProjects\Challenges\Challenge_02_Claim\bin\Debug\Challenge_02_Claim.exe.config
+C:\DotNetProjects\Challenges\Challenge_02_Claim\bin\Debug\Challenge_02_Claim.exe
+C:\DotNetProjects\Challenges\Challenge_02_Claim\bin\Debug\Challenge_02_Claim.pdb
+C:\DotNetProjects\Challenges\Challenge_02_Claim\obj\Debug\Challenge_02_Claim.csprojAssemblyReference.cache
+C:\DotNetProjects\Challenges\Challenge_02_Claim\obj\Debug\Challenge_02_Claim.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\Challenges\Challenge_02_Claim\obj\Debug\Challenge_02_Claim.exe
+C:\DotNetProjects\Challenges\Challenge_02_Claim\obj\Debug\Challenge_02_Claim.pdb

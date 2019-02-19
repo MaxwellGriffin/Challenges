@@ -1,0 +1,7 @@
+C:\DotNetProjects\Challenges\Challenge_03_Outing\bin\Debug\Challenge_03_Outing.exe.config
+C:\DotNetProjects\Challenges\Challenge_03_Outing\bin\Debug\Challenge_03_Outing.exe
+C:\DotNetProjects\Challenges\Challenge_03_Outing\bin\Debug\Challenge_03_Outing.pdb
+C:\DotNetProjects\Challenges\Challenge_03_Outing\obj\Debug\Challenge_03_Outing.csprojAssemblyReference.cache
+C:\DotNetProjects\Challenges\Challenge_03_Outing\obj\Debug\Challenge_03_Outing.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\Challenges\Challenge_03_Outing\obj\Debug\Challenge_03_Outing.exe
+C:\DotNetProjects\Challenges\Challenge_03_Outing\obj\Debug\Challenge_03_Outing.pdb

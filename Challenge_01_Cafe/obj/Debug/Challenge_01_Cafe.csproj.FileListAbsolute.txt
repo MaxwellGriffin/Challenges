@@ -1,0 +1,7 @@
+C:\DotNetProjects\Challenges\Challenge_1\bin\Debug\Challenge_1.exe.config
+C:\DotNetProjects\Challenges\Challenge_1\bin\Debug\Challenge_1.exe
+C:\DotNetProjects\Challenges\Challenge_1\bin\Debug\Challenge_1.pdb
+C:\DotNetProjects\Challenges\Challenge_1\obj\Debug\Challenge_01_Cafe.csprojAssemblyReference.cache
+C:\DotNetProjects\Challenges\Challenge_1\obj\Debug\Challenge_01_Cafe.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\Challenges\Challenge_1\obj\Debug\Challenge_1.exe
+C:\DotNetProjects\Challenges\Challenge_1\obj\Debug\Challenge_1.pdb

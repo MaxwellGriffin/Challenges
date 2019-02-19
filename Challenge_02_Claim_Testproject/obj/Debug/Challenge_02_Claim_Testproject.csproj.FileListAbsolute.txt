@@ -1,0 +1,17 @@
+C:\DotNetProjects\Challenges\Challenge_02_Claim_Testproject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\DotNetProjects\Challenges\Challenge_02_Claim_Testproject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\DotNetProjects\Challenges\Challenge_02_Claim_Testproject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\DotNetProjects\Challenges\Challenge_02_Claim_Testproject\bin\Debug\Challenge_02_Claim_Testproject.dll
+C:\DotNetProjects\Challenges\Challenge_02_Claim_Testproject\bin\Debug\Challenge_02_Claim_Testproject.pdb
+C:\DotNetProjects\Challenges\Challenge_02_Claim_Testproject\bin\Debug\Challenge_02_Claim.exe
+C:\DotNetProjects\Challenges\Challenge_02_Claim_Testproject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\DotNetProjects\Challenges\Challenge_02_Claim_Testproject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\DotNetProjects\Challenges\Challenge_02_Claim_Testproject\bin\Debug\Challenge_02_Claim.pdb
+C:\DotNetProjects\Challenges\Challenge_02_Claim_Testproject\bin\Debug\Challenge_02_Claim.exe.config
+C:\DotNetProjects\Challenges\Challenge_02_Claim_Testproject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\DotNetProjects\Challenges\Challenge_02_Claim_Testproject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\DotNetProjects\Challenges\Challenge_02_Claim_Testproject\obj\Debug\Challenge_02_Claim_Testproject.csprojAssemblyReference.cache
+C:\DotNetProjects\Challenges\Challenge_02_Claim_Testproject\obj\Debug\Challenge_02_Claim_Testproject.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\Challenges\Challenge_02_Claim_Testproject\obj\Debug\Challenge_02_Claim_Testproject.csproj.CopyComplete
+C:\DotNetProjects\Challenges\Challenge_02_Claim_Testproject\obj\Debug\Challenge_02_Claim_Testproject.dll
+C:\DotNetProjects\Challenges\Challenge_02_Claim_Testproject\obj\Debug\Challenge_02_Claim_Testproject.pdb

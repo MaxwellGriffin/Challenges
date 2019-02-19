@@ -1,0 +1,7 @@
+C:\DotNetProjects\Challenges\Challenge_04_Badge\bin\Debug\Challenge_04_Badge.exe.config
+C:\DotNetProjects\Challenges\Challenge_04_Badge\bin\Debug\Challenge_04_Badge.exe
+C:\DotNetProjects\Challenges\Challenge_04_Badge\bin\Debug\Challenge_04_Badge.pdb
+C:\DotNetProjects\Challenges\Challenge_04_Badge\obj\Debug\Challenge_04_Badge.csprojAssemblyReference.cache
+C:\DotNetProjects\Challenges\Challenge_04_Badge\obj\Debug\Challenge_04_Badge.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\Challenges\Challenge_04_Badge\obj\Debug\Challenge_04_Badge.exe
+C:\DotNetProjects\Challenges\Challenge_04_Badge\obj\Debug\Challenge_04_Badge.pdb
