@@ -1,0 +1,7 @@
+C:\DotNetProjects\Challenges\Challenge_05_Greet\bin\Debug\Challenge_05_Greet.exe.config
+C:\DotNetProjects\Challenges\Challenge_05_Greet\bin\Debug\Challenge_05_Greet.exe
+C:\DotNetProjects\Challenges\Challenge_05_Greet\bin\Debug\Challenge_05_Greet.pdb
+C:\DotNetProjects\Challenges\Challenge_05_Greet\obj\Debug\Challenge_05_Greet.csprojAssemblyReference.cache
+C:\DotNetProjects\Challenges\Challenge_05_Greet\obj\Debug\Challenge_05_Greet.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\Challenges\Challenge_05_Greet\obj\Debug\Challenge_05_Greet.exe
+C:\DotNetProjects\Challenges\Challenge_05_Greet\obj\Debug\Challenge_05_Greet.pdb

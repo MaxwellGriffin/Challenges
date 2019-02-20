@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge_04_Badge", "Chall
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge_05_Greet", "Challenge_05_Greet\Challenge_05_Greet.csproj", "{6F184178-A845-49DF-98A6-9E88A9440750}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge_06_GreenPlan", "Challenge_06_GreenPlan\Challenge_06_GreenPlan.csproj", "{A0608CDD-D39A-4761-A4F5-00AEAFAA5FB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{6F184178-A845-49DF-98A6-9E88A9440750}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F184178-A845-49DF-98A6-9E88A9440750}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F184178-A845-49DF-98A6-9E88A9440750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0608CDD-D39A-4761-A4F5-00AEAFAA5FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0608CDD-D39A-4761-A4F5-00AEAFAA5FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0608CDD-D39A-4761-A4F5-00AEAFAA5FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0608CDD-D39A-4761-A4F5-00AEAFAA5FB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

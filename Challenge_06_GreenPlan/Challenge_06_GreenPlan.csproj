@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6F184178-A845-49DF-98A6-9E88A9440750}</ProjectGuid>
+    <ProjectGuid>{A0608CDD-D39A-4761-A4F5-00AEAFAA5FB4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Challenge_05_Greet</RootNamespace>
-    <AssemblyName>Challenge_05_Greet</AssemblyName>
+    <RootNamespace>Challenge_06_GreenPlan</RootNamespace>
+    <AssemblyName>Challenge_06_GreenPlan</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Customer.cs" />
-    <Compile Include="CustomerRepository.cs" />
+    <Compile Include="Car.cs" />
+    <Compile Include="CarRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProgramUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
