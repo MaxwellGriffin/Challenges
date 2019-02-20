@@ -61,9 +61,9 @@ namespace Challenge_06_GreenPlan
 
 		private void ShowMenu()
 		{
-			Console.WriteLine("\tnew: add new badge\n" +
-				"\tlist: list badges\n" +
-				"\tedit [badge ID]: edit badge\n" +
+			Console.WriteLine("\tnew: add new car\n" +
+				"\tlist: list cars\n" +
+				"\tedit [g/e/h]: edit car\n" +
 			"\thelp: show commands");
 		}
 
