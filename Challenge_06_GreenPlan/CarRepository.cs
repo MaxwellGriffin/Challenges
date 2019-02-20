@@ -29,32 +29,19 @@ namespace Challenge_06_GreenPlan
 
 		public void SetCarList(List<Car> inputList, string type)
 		{
-			switch(type)
+			switch (type)
 			{
 				case "g":
-					gCarList.Clear();
+					gCarList = inputList;
 					break;
 				case "e":
-					eCarList.Clear();
+					eCarList = inputList;
 					break;
 				case "h":
-					hCarList.Clear();
+					hCarList = inputList;
 					break;
-			}
-			foreach (Car car in inputList)
-			{
-				switch (car.Type)
-				{
-					case Car.CarType.Gas:
-						gCarList.Add(car);
-						break;
-					case Car.CarType.Electric:
-						eCarList.Add(car);
-						break;
-					case Car.CarType.Hybrid:
-						hCarList.Add(car);
-						break;
-				}
+				default:
+					throw new Exception("Error.");
 			}
 		}
 

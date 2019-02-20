@@ -45,6 +45,14 @@ namespace Challenge_06_GreenPlan
 					}
 					Console.WriteLine("Invalid. You must enter which type of car to edit.");
 					break;
+				case "del":
+					if (value == "g" || value == "e" || value == "h")
+					{
+						DeleteCar(value);
+						break;
+					}
+					Console.WriteLine("Invalid. You must enter which type of car to delete.");
+					break;
 				default:
 					Console.WriteLine($"ERROR! '{cmd}' not recognized. Type HELP for options.");
 					break;
@@ -64,6 +72,7 @@ namespace Challenge_06_GreenPlan
 			Console.WriteLine("\tnew: add new car\n" +
 				"\tlist: list cars\n" +
 				"\tedit [g/e/h]: edit car\n" +
+				"\tdel [g/e/h]: delete car\n" +
 			"\thelp: show commands");
 		}
 
@@ -81,7 +90,7 @@ namespace Challenge_06_GreenPlan
 			{
 				Console.Write("Cost per mile:\t");
 				input = Console.ReadLine();
-				if (IsDoubleFormat(input))
+				if (IsDoubleFormat(input) && input != "")
 				{
 					newCar.Cpm = double.Parse(input);
 					done = true;
@@ -96,7 +105,7 @@ namespace Challenge_06_GreenPlan
 			{
 				Console.Write("Price:\t");
 				input = Console.ReadLine();
-				if (IsDigitsOnly(input))
+				if (IsDigitsOnly(input) && input != "")
 				{
 					newCar.Price = int.Parse(input);
 					done = true;
@@ -196,12 +205,11 @@ namespace Challenge_06_GreenPlan
 					{
 						car.Model = input;
 					}
-					Console.WriteLine("Type:\t" + car.Type.ToString());
-					car.Type = GetCarType();
+					Console.WriteLine("CPM:\t" + car.Cpm);
 					bool done = false;
 					while(!done)
 					{
-						Console.WriteLine("CPM:\t");
+						Console.Write("CPM:\t");
 						input = Console.ReadLine();
 						if (input.Replace(" ", string.Empty) == string.Empty)
 						{
@@ -218,9 +226,10 @@ namespace Challenge_06_GreenPlan
 						}
 					}
 					done = false;
+					Console.WriteLine("Price:\t" + car.Price);
 					while (!done)
 					{
-						Console.WriteLine("Price:\t");
+						Console.Write("Price:\t");
 						input = Console.ReadLine();
 						if(input.Replace(" ", string.Empty) == string.Empty)
 						{
