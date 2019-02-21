@@ -1,66 +1,45 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
+using System.Linq;
 using System.Threading.Tasks;
-
+ 
 namespace Challenge_06_GreenPlan
 {
-	class CarRepository
+	//I began rewriting this class after my dad gave me advice on how to do it better. 
+	//The program was working before, but was not written very well.
+	public class CarRepository 
 	{
-		List<Car> gCarList = new List<Car>();
-		List<Car> eCarList = new List<Car>();
-		List<Car> hCarList = new List<Car>();
-
-		public List<Car> GetCarList(string type)
+		private Dictionary<CarType, List<Car>> cars = new Dictionary<CarType, List<Car>>();
+		
+		public CarRepository()
 		{
-			switch(type)
+			cars[CarType.Electric] = new List<Car>();
+			cars[CarType.Hybrid] = new List<Car>();
+			cars[CarType.Gas] = new List<Car>();
+		}
+
+		public IEnumerable<Car> GetCarList(CarType type)
+		{
+			return cars[type];
+		}
+
+		public void SetCarList(List<Car> inputList)
+		{
+			foreach (Car car in inputList)
 			{
-				case "g":
-					return gCarList;
-				case "e":
-					return eCarList;
-				case "h":
-					return hCarList;
-				default:
-					throw new Exception("Error.");
+				cars[car.Type].Clear();
+			}
+			
+			foreach (Car car in inputList)
+			{
+				cars[car.Type].Add(car);
 			}
 		}
 
-		public void SetCarList(List<Car> inputList, string type)
+		public void AddCarToList(Car newCar)
 		{
-			switch (type)
-			{
-				case "g":
-					gCarList = inputList;
-					break;
-				case "e":
-					eCarList = inputList;
-					break;
-				case "h":
-					hCarList = inputList;
-					break;
-				default:
-					throw new Exception("Error.");
-			}
-		}
-
-		public void AddCarToList(Car newCar, string type)
-		{
-			switch (type)
-			{
-				case "g":
-					gCarList.Add(newCar);
-					break;
-				case "e":
-					eCarList.Add(newCar);
-					break;
-				case "h":
-					hCarList.Add(newCar);
-					break;
-				default:
-					throw new Exception("Error.");
-			}
+			cars[newCar.Type].Add(newCar);
 		}
 	}
 }
